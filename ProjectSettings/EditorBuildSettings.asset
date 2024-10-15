@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/ObjectControl/ObjectControl.unity
+    path: Assets/Asset/ObjectControl/ObjectControl.unity
     guid: 40064286b31a10d45a1abf740c601941
   - enabled: 0
     path: Assets/C#Learning/Learnimg.unity
@@ -14,7 +14,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Ball/Ball.unity
     guid: 9f3385fed0f697249b5486b5acc88238
-  - enabled: 1
+  - enabled: 0
     path: Assets/WallAvoid/Main.unity
     guid: e2fdd2f4eef32184498fed205a9627b6
+  - enabled: 1
+    path: Assets/ObstacleEliminatingGame/ObstacleEliminating.unity
+    guid: 65a00724a9fdcd04b86fe7774dcb0c02
   m_configObjects: {}
