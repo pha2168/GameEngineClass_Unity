@@ -7,7 +7,7 @@ public class Player1 : MonoBehaviour
 {
     public float jumpPower;
 
-    private AudioSource audio; // 사운드 출력을 위해선 AudioSource 필요
+    private new AudioSource audio; // 사운드 출력을 위해선 AudioSource 필요
     public AudioClip jumpSound; // 재생(replay)할 음원 파일
 
     // Start is called before the first frame update

@@ -6,7 +6,7 @@ public class GameRoot : MonoBehaviour
 {
     public GameObject prefab = null;
 
-    private AudioSource audio;
+    private new AudioSource audio;
     public AudioClip jumpSound; // jump 음원
     public AudioClip BGMSound; // BGM 음원
 
