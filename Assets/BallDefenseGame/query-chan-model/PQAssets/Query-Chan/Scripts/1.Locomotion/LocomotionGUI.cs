@@ -7,7 +7,7 @@ public class LocomotionGUI : MonoBehaviour {
 	string NextSceneButtonLabel = "to\nStand\nMode";
 
 	[SerializeField]
-	//string NextSceneName = "01_OperateQuery_Standing";
+	string NextSceneName = "01_OperateQuery_Standing";
 
 
 	void OnGUI()
@@ -15,7 +15,7 @@ public class LocomotionGUI : MonoBehaviour {
 		showHowToPlayGUI();
 
 		if ( GUI.Button(new Rect(Screen.width-100, Screen.height-100, 100, 100), NextSceneButtonLabel) ) {
-			//Application.LoadLevel(NextSceneName);
+			Application.LoadLevel(NextSceneName);
 		}
 	}
 
