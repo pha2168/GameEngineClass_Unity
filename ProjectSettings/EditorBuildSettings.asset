@@ -20,7 +20,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/ObstacleEliminatingGame/ObstacleEliminating.unity
     guid: 65a00724a9fdcd04b86fe7774dcb0c02
-  - enabled: 1
+  - enabled: 0
     path: Assets/BallDefenseGame/DefenseGame.unity
     guid: 5dfc947af0e92b44eb8df8fe60d2951c
+  - enabled: 1
+    path: Assets/DotEaterGame/Dot.unity
+    guid: 24df4119af3b1364a822339a82015575
   m_configObjects: {}
